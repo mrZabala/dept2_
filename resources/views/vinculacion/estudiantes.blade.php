@@ -3,6 +3,19 @@
 @include('layout.sidebar')
 @section('content')
 
+<style>
+    .reglaPersonalizada {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .panel-default > .panel-heading {
+        color: white;
+        background-color: #233f8d;
+    }
+</style>
+
 <section class="content" id='app'>
     <div class="container-fluid">
         <div class="block-header">
@@ -10,7 +23,7 @@
         </div>
         <div class="page-body">
             <div class="panel panel-default">
-                <div class="panel-heading">Estudiantes <button class="btn btn-success m-l-15 pull-right" v-on:click="addupdaterecord()">Agregar Estudiante</button></div>
+                <div class="panel-heading reglaPersonalizada">Estudiantes <button class="btn btn-success m-l-15" v-on:click="addupdaterecord()">Agregar Estudiante</button></div>
                 <div class="panel-body">
                     <table class="table table-striped table-hover dataTable users-table">
                         <thead>
