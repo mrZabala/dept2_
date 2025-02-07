@@ -4,7 +4,10 @@
 @section('content')
 
 <style>
-
+    /* OTRO CAMBIO */
+    /*  
+ 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum urna eu ante laoreet, eu ultricies nisi suscipit. Vestibulum ut quam sit amet leo tristique euismod in a mi. Vestibulum nec odio mattis, accumsan ante ac, euismod sapien. Donec aliquam magna a scelerisque euismod. Vestibulum augue enim, vehicula molestie fermentum ac, tempus vitae tortor. Aliquam erat volutpat. Sed lectus est, commodo malesuada purus at, imperdiet pellentesque ante. Maecenas dignissim ante non erat venenatis, ac viverra tellus pellentesque. Vivamus dictum, massa eget viverra tincidunt, felis arcu mattis eros, non scelerisque risus leo mattis ipsum. In fermentum massa id turpis ornare ultrices. Etiam elit ante, venenatis feugiat maximus non, elementum congue velit. */
     * {
         display: none;
     }
