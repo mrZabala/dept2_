@@ -1,0 +1,93 @@
+@media print {
+    body {
+        color: #50649c;
+        background: #fff !important;
+    }
+    header,
+    footer,
+    nav,
+    .print_btn {
+        display: none !important;
+    }
+}
+
+#printView {
+    padding: 0.5em;
+    background: #fff !important;
+}
+
+.head_print h4 {
+    margin-right: 14px;
+}
+
+.head_print {
+    border: 1px dotted #666;
+    background: #eaf0f7;
+    padding: 1em;
+    text-align: center;
+}
+
+.head_print .col-xs-2 {
+    width: 20%;
+}
+
+.body_print {
+    display: table;
+    margin-top: 20px;
+    background: #fff;
+    width: 100%;
+}
+
+.body_print h2 {
+    display: table-row;
+    text-align: center;
+    background: #fff !important;
+}
+
+.section_print {
+    display: table-row;
+    background: #fff !important;
+}
+
+.section_print {
+    width: 100%;
+}
+
+.section_print .head {
+    border-bottom-color: #50649c;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+.section_print .head strong {
+    color: red;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.section_print .body {
+    width: 100%;
+    background: #fff !important;
+}
+
+.section_print p {
+    margin: 10px 0;
+    width: 100%;
+    text-align: justify;
+}
+
+.section_print .body .question label {
+    width: 100%;
+}
+
+.section_print .body .question .m-badge {
+    border: 1px solid #222;
+    background-color: #222;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.section_print .body .question {
+    border-bottom: 1px dotted #666;
+    margin-top: 10px;
+}

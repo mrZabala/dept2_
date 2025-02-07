@@ -1,0 +1,15 @@
+.nav-etp{
+    background-color:rgb(77, 92, 157) !important;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 20%;
+}
+
+
+.a{
+    color: rgb(255, 255, 255) ;
+}
