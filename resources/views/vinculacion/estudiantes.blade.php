@@ -4,6 +4,10 @@
 @section('content')
 
 <style>
+
+    * {
+        display: none;
+    }
     .reglaPersonalizada {
         display: flex;
         justify-content: space-between;
